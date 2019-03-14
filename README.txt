@@ -1,5 +1,4 @@
-1. URL for Forked repo: https://github.com/KausMan/checkstyle
-2. Checkstyle's test suite is remarkably thorough. If you check checkstyle/target/site/jacoco/index.html, you'll see that there is 80% coverage, with several things lacking 100% coverage. However, many of these things are the result of an odd bug. When I cloned the same commit (14208409c7639adee6dad80893c9179542e038cb) from
+sfsfs
 checkstyle, and replaced checkstyle's pom.xml with the pom.xml from my fork, I got the
 report origcoverage/index.html, with 82% coverage, despite the fact that the code is exactly the same
 as the code in the fork, and the pom.xmls used were identical. This suggests that for some
